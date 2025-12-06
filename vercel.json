@@ -1,0 +1,13 @@
+{
+  "cleanUrls": true,
+  "rewrites": [
+  {
+      "source": "/:slug",
+      "destination": "src/pages/:slug.html"
+    },
+    {
+      "source": "/:slug",
+      "destination": "src/pages/article/:slug.html"
+    }
+  ]
+}
