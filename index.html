@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>School - Creative Web Design</title>
+<link rel="website icon" type="png"
+    href="/assets/img/icon.png">
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/src/css/index.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+  <!-- Desktop Navigation -->
+  <div class="desktop-nav">
+    <div class="desktop-logo">
+      <img src="/assets/img/mutu.jpg" alt="MUTU">
+    </div>
+    
+    <ul class="desktop-menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="https://smkmuh1metro.sch.id" target="_blank">About School</a></li>
+      <li><a href="/src/pages/blog.html" class="active">Blog / Article</a></li>
+      <li><a href="/src/pages/about.html">About</a></li>
+    </ul>
+    
+    <div class="desktop-actions">
+      <div class="social-desktop">
+        <a href="https://instagram.com/@far_andh" target="_blank"></a>
+        <a href="https://github.com/Suk1yu" target="_blank"></a>
+      </div>
+      <a href="https://ppdb.smkmuh1metro.sch.id" target="_blank" class="desktop-daftar">Daftar</a>
+    </div>
+  </div>
+  
+  <!-- Mobile Navigation (Hamburger) -->
+  <div class="mobile-nav">
+    <div class="mobile-logo">
+      <img src="/assets/img/mutu.jpg" alt="MUTU">
+    </div>
+    <div class="menu-btn" id="menuButton">
+      <span></span>
+    </div>
+  </div>
+</nav>
+
+<!-- MENU OVERLAY (MOBILE ONLY) -->
+<div id="menuOverlay">
+  <div class="menu-header">
+    <div class="overlay-logo">
+      <div style="width:100%;height:100%;background:white;color:#005BB9;display:flex;align-items:center;justify-content:center;font-weight:bold;font-size:16px;">KEJURUAN BLOG</div>
+    </div>
+    
+    <a href="https://ppdb.smkmuh1metro.sch.id" target="_blank" class="daftar-btn">Daftar</a>
+  </div>
+
+  <div class="menu-links">
+    <a href="/index.html" style="text-decoration: none;">
+      <div class="menu-item">Home
+        <div class="arrow-btn"><i class="fas fa-arrow-right"></i></div>
+      </div>
+    </a>
+
+    <a href="https://smkmuh1metro.sch.id" target="_blank" style="text-decoration: none;">
+      <div class="menu-item">About School
+        <div class="arrow-btn"><i class="fas fa-arrow-right"></i></div>
+      </div>
+    </a>
+
+    <a href="/src/pages/blog.html" style="text-decoration: none;">
+      <div class="menu-item">Blog / Article
+        <div class="arrow-btn"><i class="fas fa-arrow-right"></i></div>
+      </div>
+    </a>
+
+    <a href="/src/pages/about.html" style="text-decoration: none;">
+      <div class="menu-item">About
+        <div class="arrow-btn"><i class="fas fa-arrow-right"></i></div>
+      </div>
+    </a>
+  </div>
+
+  <div class="follow">Follow me.</div>
+  <div class="social">
+    <a href="https://instagram.com/@far_andh" target="_blank">INSTAGRAM →</a>
+    <a href="https://github.com/Suk1yu" target="_blank">GITHUB →</a>
+    <a href="https://twitter.com" target="_blank">TWITTER →</a>
+  </div>
+</div>
+
+<!-- HERO SECTION -->
+<section class="hero">
+  <div class="tag">Beginner UI/UX And TKJ Integrity</div>
+  <div class="typing-container">
+    <h1 id="animatedText" class="animated-text">Welcome Everyone 👋</h1>
+  </div>
+  <p>Menciptakan Inovasi Digital Di Masa Depan</p>
+  <a href="https://github.com/Suk1yu/School" class="cta">Frontend</a>
+  <a href="#" class="cti">No Framework</a>
+  <div class="notes">
+    <img src="/assets/img/org.jpg" alt="Team" class="org-img">
+    <p class="org-container">-  By <strong>Collaborate</strong></p>
+    <img src="/assets/img/css.png" alt="CSS" class="tailwind-img">
+    <p class="tailwind-container">Styled With <strong>CSS</strong></p>
+  </div>
+</section>
+
+<!-- ========= AUTOPLAY CAROUSEL SECTION ========= -->
+<section class="carousel-section">
+  <div class="carousel-container">
+    <div class="carousel-wrapper">
+      <div class="carousel-track">
+        <!-- Gambar 1 -->
+        <div class="carousel-slide active">
+          <div class="slide-content">
+          </div>
+          <div class="slide-overlay"></div>
+          <!-- Gambar placeholder - ganti dengan gambar asli -->
+         <img src="/assets/img/depan.jpg" class="slide-image">
+        </div>
+        
+        <!-- Gambar 2 -->
+        <div class="carousel-slide">
+          <div class="slide-content">
+          </div>
+          <div class="slide-overlay"></div>
+         <img src="/assets/img/old1.jpg" class="slide-image">
+        </div>
+        
+        <!-- Gambar 3 -->
+        <div class="carousel-slide">
+          <div class="slide-content">
+          </div>
+          <div class="slide-overlay"></div>
+  <img src="/assets/img/old2.jpg" class="slide-image">
+        </div>
+        
+        <!-- Gambar 4 -->
+        <div class="carousel-slide">
+          <div class="slide-content">
+          </div>
+          <div class="slide-overlay"></div>
+  <img src="/assets/img/old3.jpg" class="slide-image">
+        </div>
+        
+                <!-- Gambar 5 -->
+        <div class="carousel-slide">
+          <div class="slide-content">
+          </div>
+          <div class="slide-overlay"></div>
+  <img src="/assets/img/fotbar.jpg" class="slide-image">
+        </div>
+      </div>
+      
+      <!-- Navigation Arrows -->
+      <button class="carousel-btn prev-btn" aria-label="Previous slide">
+        <i class="fas fa-chevron-left"></i>
+      </button>
+      <button class="carousel-btn next-btn" aria-label="Next slide">
+        <i class="fas fa-chevron-right"></i>
+      </button>
+      
+      <!-- Indicators -->
+      <div class="carousel-indicators">
+        <button class="indicator active" data-slide="0"></button>
+        <button class="indicator" data-slide="1"></button>
+        <button class="indicator" data-slide="2"></button>
+        <button class="indicator" data-slide="3"></button>
+         <button class="indicator" data-slide="4"></button>
+      </div>
+      
+      <!-- Auto-play toggle -->
+      <div class="autoplay-control">
+        <button class="autoplay-toggle" id="autoplayToggle" aria-label="Toggle autoplay">
+          <i class="fas fa-pause"></i>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========= FEATURES SECTION ========= -->
+<section class="features-section">
+  <div class="features-header">
+    <h2>Why Choose Our Program?</h2>
+    <p class="features-subtitle">Keunggulan dan fasilitas yang akan kamu dapatkan dalam program TKJ kami</p>
+  </div>
+
+  <div class="features-container">
+    <!-- Kotak 1 -->
+    <div class="feature-card">
+      <div class="feature-icon">
+        <div class="icon-wrapper">
+          <i class="fas fa-certificate"></i>
+        </div>
+        <!-- Untuk gambar: hapus <i> di atas dan uncomment di bawah -->
+        <!-- <img src="mikrotik-icon.jpg" alt="Mikrotik" class="icon-image"> -->
+      </div>
+            <div class="feature-footer">
+      <div class="feature-content">
+        <h3>Kurikulum TJKT (Fokus Telekomunikasi)</h3>
+        <p>Ini berarti materinya lebih luas dari TKJ biasa. Selain jaringan komputer (LAN/WAN), siswa juga mempelajari teknologi telekomunikasi terkini seperti instalasi dan konfigurasi yang menjadi standar industri saat ini.</p>
+      </div>
+      </div>
+      <div class="card-hover-effect"></div>
+    </div>
+
+    <!-- Kotak 2 -->
+    <div class="feature-card">
+      <div class="feature-icon">
+        <div class="icon-wrapper">
+          <i class="fas fa-flask"></i>
+        </div>
+      </div>
+            <div class="feature-footer">
+      <div class="feature-content">
+        <h3>Lab Standar Industri</h3>
+        <p>Fasilitas komputer spesifikasi tinggi dan perangkat jaringan Fiber Optic terbaru. Dilengkapi dengan router, switch, dan server enterprise grade.</p>
+      </div>
+      </div>
+      <div class="card-hover-effect"></div>
+    </div>
+
+    <!-- Kotak 3 -->
+    <div class="feature-card">
+      <div class="feature-icon">
+        <div class="icon-wrapper">
+          <i class="fas fa-industry"></i>
+        </div>
+      </div>
+            <div class="feature-footer">
+      <div class="feature-content">
+        <h3>Teaching Factory</h3>
+        <p>Pembelajaran berbasis produksi/jasa yang mengacu pada standar dan prosedur industri. Langsung praktik dengan klien nyata.</p>
+      </div>
+      </div>
+      <div class="card-hover-effect"></div>
+    </div>
+
+    <!-- Kotak 4 -->
+    <div class="feature-card">
+      <div class="feature-icon">
+        <div class="icon-wrapper">
+          <i class="fas fa-chalkboard-teacher"></i>
+        </div>
+      </div>
+            <div class="feature-footer">
+      <div class="feature-content">
+        <h3>Expert Instructors</h3>
+        <p>Diajar oleh praktisi industri dengan pengalaman minimal 5 tahun di bidang jaringan dan sistem. Update kurikulum sesuai perkembangan teknologi.</p>
+      </div>
+      </div>
+      <div class="card-hover-effect"></div>
+    </div>
+
+    <!-- Kotak 5 -->
+    <div class="feature-card">
+      <div class="feature-icon">
+        <div class="icon-wrapper">
+          <i class="fas fa-network-wired"></i>
+        </div>
+      </div>
+            <div class="feature-footer"> 
+      <div class="feature-content">
+        <h3>Network Simulation</h3>
+        <p>Akses ke simulator jaringan canggih untuk latihan konfigurasi kompleks tanpa risiko merusak perangkat fisik.</p>
+      </div>
+      </div>
+      <div class="card-hover-effect"></div>
+    </div>
+
+    <!-- Kotak 6 -->
+    <div class="feature-card">
+      <div class="feature-icon">
+        <div class="icon-wrapper">
+          <i class="fas fa-handshake"></i>
+        </div>
+      </div>
+      
+            <div class="feature-footer">
+      <div class="feature-content">
+        <h3>Industry Partnership</h3>
+        <p>Kerjasama dengan perusahaan IT ternama untuk internship dan penyaluran kerja. Jaringan alumni yang kuat di industri.</p>
+      </div>
+      </div>
+      <div class="card-hover-effect"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ========= FAQ SECTION ========= -->
+<section class="faq-section">
+  <div class="faq-header">
+    <h2>Frequently Asked Questions</h2>
+    <p class="faq-subtitle">Pintu menuju masa depan digital, kamu belajar membangun jaringan, server, komputer, dan sistem yang menjadi tulang punggung teknologi modern.</p>
+  </div>
+
+  <div class="faq-container">
+    <!-- FAQ Item 1 -->
+    <div class="faq-item">
+      <div class="faq-question">
+        <span>Apa bedanya TKJ dengan RPL atau Multimedia (DKV)?</span>
+        <button class="faq-toggle">
+          <span class="plus">+</span>
+          <span class="minus">−</span>
+        </button>
+      </div>
+      <div class="faq-answer">
+        <p>Bayangkan sebuah jalan raya dan mobilnya.
+​<strong>TKJ (TJKT)</strong> adalah yang membangun jalan rayanya, memasang rambu, dan memastikan lalu lintas data lancar. Fokusnya pada hardware, infrastruktur jaringan, kabel fiber optik, dan server.
+​<strong>RPL</strong> adalah yang membuat mobilnya (aplikasi/software).
+​DKV/Multimedia adalah yang mendesain bentuk mobilnya agar bagus (desain grafis/konten).
+​<strong>Di SMK Muh 1 Metro:</strong> Jika kamu lebih suka mengutak-atik alat, kabel, router, dan wifi daripada duduk diam menulis kode program (coding) seharian, maka TKJ adalah pilihan yang tepat.</p>
+      </div>
+    </div>
+
+    <!-- FAQ Item 2 -->
+    <div class="faq-item">
+      <div class="faq-question">
+        <span>Apakah masuk TKJ harus pintar Matematika dan Jago Coding?</span>
+        <button class="faq-toggle">
+          <span class="plus">+</span>
+          <span class="minus">−</span>
+        </button>
+      </div>
+      <div class="faq-answer">
+        <p>Tidak harus jago coding seperti di jurusan RPL, dan matematikanya lebih ke logika terapan.
+​Yang Dipelajari: Kamu akan lebih banyak belajar logika konfigurasi. Contohnya: "Bagaimana mengatur agar internet di ruang A bisa cepat, tapi di ruang B diblokir?"
+​Metode Belajar: Di sekolah ini ada Teaching Factory, di mana pembelajarannya langsung praktik mengerjakan proyek nyata (bukan cuma teori hitung-hitungan). Jadi, yang terpenting adalah ketelitian dan pemahaman logika sistem, bukan menghafal rumus matematika rumit.</p>
+      </div>
+    </div>
+
+    <!-- FAQ Item 3 -->
+    <div class="faq-item">
+      <div class="faq-question">
+        <span>Saya tidak punya laptop mahal/canggih, apakah bisa masuk TKJ?</span>
+        <button class="faq-toggle">
+          <span class="plus">+</span>
+          <span class="minus">−</span>
+        </button>
+      </div>
+      <div class="faq-answer">
+        <p>Bisa banget. Sekolah kejuruan yang baik bertanggung jawab menyediakan alat praktik.
+​<strong>Fasilitas Sekolah:</strong> SMK Muhammadiyah 1 Metro memiliki Lab Standar Industri dengan spesifikasi komputer tinggi dan perangkat jaringan Fiber Optik terbaru.
+​<strong>Karena ini sekolah vokasi (SMK)</strong>, praktik berat dilakukan di sekolah menggunakan alat sekolah (Router Mikrotik, Server, Alat Splicing Fiber Optik).</p>
+      </div>
+    </div>
+
+    <!-- FAQ Item 4 -->
+    <div class="faq-item">
+      <div class="faq-question">
+        <span>Kalau lulus TKJ, apakah jalannya hanya kerja? Bisakah saya lanjut kuliah?</span>
+        <button class="faq-toggle">
+          <span class="plus">+</span>
+          <span class="minus">−</span>
+        </button>
+      </div>
+      <div class="faq-answer">
+        <p>Sangat bisa. Lulusan SMK punya keunggulan saat kuliah di jurusan teknik karena sudah paham dasarnya.
+​<strong>Jurusan Kuliah:</strong> Alumni TKJ biasanya sangat lancar jika masuk Teknik Informatika, Sistem Informasi, atau Ilmu Komputer.
+​<strong>Bukti Alumni:</strong> Di website sekolah tercatat alumni bernama Kukuh Fauzi Ahmad yang berhasil tembus ke Universitas Indonesia (UI) dan Santi Febi Susela di Universitas Lampung (Unila). Ini membuktikan lulusan sekolah ini punya kualitas akademik yang mampu bersaing masuk perguruan tinggi negeri top, tidak harus langsung kerja.</p>
+      </div>
+    </div>
+
+    <!-- FAQ Item 5 -->
+    <div class="faq-item">
+      <div class="faq-question">
+        <span>Apa bedanya 'Teaching Factory' (TeFa) dengan praktik biasa di Lab?</span>
+        <button class="faq-toggle">
+          <span class="plus">+</span>
+          <span class="minus">−</span>
+        </button>
+      </div>
+      <div class="faq-answer">
+        <p>Banyak yang mengira ini sama, padahal berbeda jauh.
+​Praktik Biasa: Kamu membongkar pasang komputer simulasi. Kalau rusak, tidak ada yang dirugikan selain nilai latihan.
+​<strong>Teaching Factory (TeFa):</strong> Kamu mengerjakan pekerjaan "sungguhan" yang berstandar industri.
+​Di <strong>SMK Muh 1 Metro:</strong> Fasilitas TeFa berarti sekolah membawa suasana industri ke dalam kelas. Siswa mungkin dilibatkan dalam project perbaikan perangkat nyata atau pengelolaan jaringan sekolah yang sebenarnya. Jadi mental yang dibangun adalah mental profesional yang bertanggung jawab pada klien, bukan mental siswa yang sekadar coba-coba.</p>
+      </div>
+    </div>
+  </div>
+</section>
+   <script src="/src/js/index.js"></script>
+</body>
+</html>
